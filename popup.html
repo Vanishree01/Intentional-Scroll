@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Intentional Scroll</title>
+
+    <!-- Connects our CSS file -->
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Extension title -->
+        <h1>Intentional Scroll</h1>
+
+        <!-- User selects their intention -->
+        <p class="subtitle">What brings you here today?</p>
+
+        <select id="intention">
+
+            <option value="">Select your intention</option>
+            <option value="messages">Reply to messages</option>
+            <option value="notifications">Check notifications</option>
+            <option value="search">Search for something</option>
+            <option value="break">Take a short break</option>
+
+        </select>
+
+        <!-- User selects their intended time -->
+        <p class="subtitle">How much time do you want to spend?</p>
+
+        <input
+            type="number"
+            id="timeLimit"
+            min="1"
+            max="180"
+            value="10"
+            placeholder="Enter minutes"
+        >
+
+        <!-- Start session button -->
+        <button id="startButton">Start Session</button>
+
+        <!-- Export data button -->
+        <button id="exportButton">Export Session Data</button>
+
+        <!-- Displays status messages -->
+        <p id="status"></p>
+
+    </div>
+
+    <!-- Connects our JavaScript file -->
+    <script src="popup.js"></script>
+
+</body>
+
+</html>

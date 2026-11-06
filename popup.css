@@ -1,0 +1,81 @@
+
+/* Basic page styling */
+body {
+    width: 320px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f3ef;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Main popup container */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Main heading */
+h1 {
+    font-size: 22px;
+    margin: 0;
+    color: #252525;
+}
+
+/* Small descriptive text */
+.subtitle {
+    font-size: 13px;
+    color: #666666;
+    margin: 4px 0;
+}
+
+/* Dropdown menus */
+select {
+    padding: 11px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 13px;
+}
+
+/* Start button */
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #252525;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #444444;
+}
+
+/* Status message */
+#status {
+    font-size: 12px;
+    color: #555555;
+}
+
+/* Custom time input */
+input {
+    padding: 11px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 13px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#is-time {
+    color: #252525;
+    background: #ffffff;
+    border: 1px solid #777777;
+    font-weight: 600;
+    color-scheme: light;
+}
